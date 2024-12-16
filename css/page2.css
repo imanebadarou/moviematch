@@ -2,12 +2,14 @@
     display: flex;
     flex-direction: row;
     column-gap: 5%;
+    justify-content: center;
 }
 
 .choix1{
     display: flex;
     flex-direction: column;
     width: max-content;
+    align-items: center;
     
 }
 .choix p{
@@ -15,7 +17,7 @@
     font-family: 'arial';
     font-size: 1000%;
     filter: drop-shadow(4px 4px #CB1215);
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 .choix1 h2{

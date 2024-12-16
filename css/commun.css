@@ -13,9 +13,9 @@ nav{
     padding-right: 8%;
     background-color: #FFEEF6;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
-    column-gap: 65%;
+
 }
 
 nav img{
@@ -24,8 +24,6 @@ nav img{
 
 nav ul{
     display: flex;
-    justify-content: center;
-    flex-direction: row;
     column-gap: 10%;
 }
 
@@ -65,4 +63,11 @@ nav li a{
     font-family: 'arial';
     font-size: 200%;
     color: #FF6696;
+}
+
+footer{
+    background-color: #FFEEF6;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    bottom: 0;
 }
