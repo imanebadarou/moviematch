@@ -2,16 +2,42 @@
     font-family: "regards";
     src: url("../fonts/regards.ttf") format("truetype");
 } 
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+:root {
+    --dark-red: #820A30;
+    --medium-red: #CB1215;
+    --medium-pink: #FF6696;
+    --light-pink: #FFD2E0;
+    --white-pink: #FFEEF6;
+    
+    --dark-blue: #2A0A82;
+    --medium-blue: #2E12CB;
+    --light-blue: #71B4FF;
+    --grey-blue: #A2BBFF;
+    --white-blue: #DDE0FF;
+
+  
+    --content-max-width: 1344px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight:normal;
+    color: var(--dark-blue);
+  }
+  
 
 body{
-    background-color: #FFD2E0;
+    background-color: var(--light-pink);
     margin: 0;
 }
 
 nav{
     padding: 1.5%;
     padding-right: 8%;
-    background-color: #FFEEF6;
+    background-color: var(--white-pink);
     display: flex;
     justify-content: end;
     column-gap: 65%;
@@ -31,19 +57,19 @@ nav ul{
 nav li{
     padding: 0.7%;
     font-size: 120%;
-    background-color: #FF6696;
+    background-color: var(--medium-pink);
     border: 0px;
     border-radius: 10px;
-    filter: drop-shadow(5px 5px #CB1215);
+    filter: drop-shadow(5px 5px var(--medium-red));
     text-decoration: none;
     font-family: 'arial';
-    color: #FFEEF6;
+    color: var(--white-pink);
     list-style: none;
 }
 
 nav a{
     text-decoration: none;
-    color: #FFEEF6;
+    color: --white-pink;
 }
 
 .titre{
@@ -55,12 +81,12 @@ nav a{
 .titre h1{
     font-family: 'regards';
     font-size: 550%;
-    color: #820A30;
+    color: var(--dark-red);
     margin-bottom: 0%;
 }
 
 .titre p{
     font-family: 'arial';
     font-size: 200%;
-    color: #FF6696;
+    color: var(--medium-pink);
 }

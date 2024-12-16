@@ -1,0 +1,30 @@
+
+
+h1{
+    font-family: 'regards';
+    font-size: 550%;
+    color: #820A30;
+    margin-bottom: 0%;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+}
+
+section a{
+    font-family: 'regards';
+    font-size: 300%;
+    color: var(--white-pink);
+    text-transform:capitalize;
+    text-decoration:none;
+
+    /* justify-content: center; */
+    text-align: center;
+}
+
+section h2{
+    font-family: 'regards';
+    font-size: 350%;
+    color: #820A30;
+    margin-bottom: 0%;
+    text-transform: uppercase;
+}
