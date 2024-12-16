@@ -1,0 +1,35 @@
+.choix{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+}
+
+.choix1{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    
+}
+.choix p{
+    color: #FF6696;
+    font-family: 'arial';
+    font-size: 1000%;
+    filter: drop-shadow(4px 4px #CB1215);
+    margin-top: 2%;
+}
+
+.choix1 h2{
+    font-family: 'regards';
+    font-size: 250%;
+    color: #CB1215;
+    margin-bottom: 25%;
+}
+
+.choix1 input{
+    background-color: #FFEEF6;
+    border: 0px;
+    height: 50%;
+    width: 140%;
+    margin-bottom: 10%;
+    border-radius: 5px;
+}

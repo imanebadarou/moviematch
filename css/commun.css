@@ -9,28 +9,27 @@ body{
 }
 
 nav{
-    padding: 1.5%;
+    padding: 1.2%;
     padding-right: 8%;
     background-color: #FFEEF6;
     display: flex;
     justify-content: end;
+    align-items: center;
     column-gap: 65%;
 }
 
 nav img{
-    height: 50px;
+    height: 60px;
 }
 
 nav ul{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    column-gap: 5%;
+    column-gap: 10%;
 }
 
 nav li{
-    padding: 0.7%;
-    font-size: 120%;
     background-color: #FF6696;
     border: 0px;
     border-radius: 10px;
@@ -41,7 +40,9 @@ nav li{
     list-style: none;
 }
 
-nav a{
+nav li a{
+    padding: 10%;
+    font-size: 120%;
     text-decoration: none;
     color: #FFEEF6;
 }
@@ -57,6 +58,7 @@ nav a{
     font-size: 550%;
     color: #820A30;
     margin-bottom: 0%;
+    text-transform: uppercase;
 }
 
 .titre p{
