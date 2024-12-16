@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "regards";
+    src: url("../fonts/regards.ttf") format("truetype");
+} 
+
+body{
+    background-color: #FFD2E0;
+    margin: 0;
+}
+
+nav{
+    padding: 1.5%;
+    padding-right: 8%;
+    background-color: #FFEEF6;
+    display: flex;
+    justify-content: end;
+    column-gap: 65%;
+}
+
+nav img{
+    height: 50px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 5%;
+}
+
+nav li{
+    padding: 0.7%;
+    font-size: 120%;
+    background-color: #FF6696;
+    border: 0px;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px #CB1215);
+    text-decoration: none;
+    font-family: 'arial';
+    color: #FFEEF6;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FFEEF6;
+}
+
+.titre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titre h1{
+    font-family: 'regards';
+    font-size: 550%;
+    color: #820A30;
+    margin-bottom: 0%;
+}
+
+.titre p{
+    font-family: 'arial';
+    font-size: 200%;
+    color: #FF6696;
+}
