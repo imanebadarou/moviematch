@@ -1,5 +1,5 @@
 html, main{
-    background-color: #A2BBFF;
+    background-color: var(--grey-blue);;
 }
 
 .page3 {
@@ -7,13 +7,13 @@ html, main{
 }
 
 nav{
-    background-color: #2A0A82;
+    background-color: var(--dark-blue);
 }
 
 nav li{
-    background-color: #71B4FF;
+    background-color: var(--light-blue);;
     color: FFFFFF;
-    filter: drop-shadow(5px 5px #DDE0FF);
+    filter: drop-shadow(5px 5px var(--white-blue));
 }
 
 #emoji{
@@ -26,7 +26,7 @@ nav li{
 .titre-p3 h1{
     font-family: 'regards';
     font-size: 6.5vw;
-    color: #2A0A82;
+    color: var(--dark-blue);
     margin-bottom: 0%;
     margin-left: 5%;
     text-transform: uppercase;
@@ -41,7 +41,7 @@ nav li{
 }
 
 .recherche select, .recherche input{
-    background-color: #DDE0FF;
+    background-color: var(--white-blue);
     border: 0px;
     width: 20%;
     margin-bottom: 10%;
@@ -53,18 +53,18 @@ nav li{
 
 
 .recherche input[type="text"]:focus{
-    border: 2px solid #2E12CB;
+    border: 2px solid var(--medium-blue);
     outline:none;
 }
 
 footer{
-    background-color: #2A0A82;
+    background-color: var(--dark-blue);
 }
 
 footer #footer-title{
-    color: #DDE0FF;
+    color: var(--white-blue);
 }
 footer p, footer p a{
-    color: #A2BBFF;
+    color: var(--grey-blue);;
 }
 

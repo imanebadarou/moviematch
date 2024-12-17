@@ -1,4 +1,22 @@
 
+@keyframes battement {
+    0%, 100% {
+      transform: scale(100%);
+    }
+    50%{
+        transform: scale(105%);
+    }
+}
+
+@keyframes flottement {
+    0%, 100% {
+      transform: translateY(0); 
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
 section{
     max-width: 65%;
     justify-content: center;
@@ -10,6 +28,7 @@ h1{
     font-size: var(--fs-900);
     color: var(--dark-red);
     margin: 0%;
+    padding-top: 2%;
     text-transform: uppercase;
     text-align: center;
     justify-content: center;
@@ -66,11 +85,11 @@ section p{
     color: var(--white-pink);
     filter: drop-shadow(3px 3px var(--medium-red));
     background-image: url("../images/coeur.png");
-    
+    animation: battement 1.5s ease-in-out infinite;
 }
 
 #enSolo{
-    margin-top: 30px;
+    margin-top: 10%;
 }
 #enSolo h2,#enSOlo p{
     color: var(--dark-blue);
@@ -79,4 +98,5 @@ section p{
     color: var(--white-blue);
     filter: drop-shadow(3px 3px var(--medium-blue));
     background-image: url("../images/coeur_brise_bleu.png");
+    animation: flottement 2s ease-in-out infinite;
 }
