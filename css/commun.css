@@ -36,12 +36,18 @@ nav{
 
 nav img{
     height: 60px;
+    transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+nav img:hover{
+    transform: scale(105%);
 }
 
 nav ul{
     display: flex;
     column-gap: 25%;
+    margin-right: 5%;
 }
+
 
 nav li{
     background-color: #FF6696;
@@ -52,6 +58,10 @@ nav li{
     list-style: none;
     text-align: center;
     padding: 5%;
+    transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+nav li:hover{
+    transform: scale(105%);
 }
 
 nav li a{
