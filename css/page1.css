@@ -22,13 +22,15 @@ section a{
     font-size: 250%;
     text-transform:capitalize;
     text-decoration:none;
-    /* justify-content: center; */
+
     text-align: center;
     display: block;
     margin: auto;
+
     background-size: contain;
     background-repeat:no-repeat;
     background-position: center;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +38,7 @@ section a{
 
 section h2{
     font-family: 'regards';
-    font-size: 250%;
+    font-size: 200%;
     margin-bottom: 0%;
     text-transform: uppercase;
     margin-top : 0px;

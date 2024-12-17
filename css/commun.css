@@ -20,8 +20,7 @@
     --grey-blue: #A2BBFF;
     --white-blue: #DDE0FF;
 
-  
-    --content-max-width: 1344px;
+
     font-size: 20px;
     font-family: 'Montserrat';
     font-weight:normal;
@@ -98,7 +97,7 @@ nav li:hover{
 nav li a{
     font-size: 120%;
     text-decoration: none;
-    color: --white-pink;
+    color: var(--white-pink);
     white-space: nowrap;
 }
 

@@ -13,7 +13,7 @@
     
 }
 .choix p{
-    color: #FF6696;
+    color: var(--medium-pink);
     font-family: 'montserrat';
     font-weight: 600;
     font-size: 1100%;
@@ -29,7 +29,7 @@
 }
 
 .choix1 input{
-    background-color: #FFEEF6;
+    background-color: var(--white-pink);
     border: 0px;
     height: 50%;
     width: 140%;
