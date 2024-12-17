@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+            <link rel="stylesheet" href="../css/commun.css">
+			<link rel="stylesheet" href="../css/page3.css">
+        <title>MovieMatch - Solo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="./page1.html"> <img src="../images/logo_moviematch_bleu.png" alt="logo MovieMatch"/></a>
+                <ul>
+                    <li><a href="./page2.html">Films en duo</a></li>
+                    <li><a href="./page3.html">Films en solo</a></li>
+                  </ul>
+            </nav>
+        </header>
+
+        <main>
+            <img id="emoji" src="../images/emoji-triste.png"/>
+            <section class="titre-p3">
+                <h1>MovieList</h1>
+            </section>
+            <section class="recherche">
+                <select name="filtre" id="filtre-select">
+                    <option value="">Choisissez votre filtre</option>
+                    <option value="date">Date</option>
+                    <option value="acteur">Acteur</option>
+                    <option value="realisateur">Réalisateur</option>
+                    <option value="note">Note</option>
+                    <option value="genre">Genre</option>
+                  </select>
+                  <input type="text"/>
+            </section>
+        </main>
+
+        <footer>
+            <p id="footer-title">Moviematch</p>
+            <p>© MovieMatch - 2024. Données des films provenants de <a href="https://www.themoviedb.org/?language=fr" target="_blank">TMDB</a></p>
+        </footer>
+		
+    </body>
+</html>

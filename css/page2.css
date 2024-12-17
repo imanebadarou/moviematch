@@ -1,0 +1,50 @@
+.choix{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+    justify-content: center;
+}
+
+.choix1{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    align-items: center;
+    
+}
+.choix p{
+    color: #FF6696;
+    font-family: 'montserrat';
+    font-weight: 600;
+    font-size: 1100%;
+    filter: drop-shadow(4px 4px #CB1215);
+    margin-top: 7%;
+}
+
+.choix1 h2{
+    font-family: 'regards';
+    font-size: 250%;
+    color: #CB1215;
+    margin-bottom: 25%;
+}
+
+.choix1 input{
+    background-color: #FFEEF6;
+    border: 0px;
+    height: 50%;
+    width: 140%;
+    margin-bottom: 10%;
+    border-radius: 5px;
+}
+
+.choix1 input[type="text"]{
+    font-family: 'montserrat';
+    font-size: 110%;
+    font-style: italic;
+    padding: 5%;
+}
+
+.choix1 input[type="text"]:focus{
+    border: 2px solid #CB1215;
+    outline:none;
+}
