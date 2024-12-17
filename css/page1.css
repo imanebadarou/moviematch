@@ -7,7 +7,7 @@ section{
 
 h1{
     font-family: 'regards';
-    font-size: 550%;
+    font-size: var(--fs-900);
     color: var(--dark-red);
     margin: 0%;
     text-transform: uppercase;
@@ -19,7 +19,7 @@ section a{
     max-width: 80vw;
     height: 30vw;
     font-family: 'regards';
-    font-size: 250%;
+    font-size: var(--fs-800);
     text-transform:capitalize;
     text-decoration:none;
 
@@ -38,7 +38,7 @@ section a{
 
 section h2{
     font-family: 'regards';
-    font-size: 200%;
+    font-size: var(--fs-700);
     margin-bottom: 0%;
     text-transform: uppercase;
     margin-top : 0px;
@@ -47,8 +47,9 @@ section h2{
 section p{
     font-family: 'Montserrat';
     font-weight:600 ;
-    font-size: 100%;
-    max-width: 40%;
+    font-size: var(--fs-600);
+    max-width: 65%;
+    min-width: 15rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0%;

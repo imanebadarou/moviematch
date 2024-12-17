@@ -16,7 +16,7 @@
     color: var(--medium-pink);
     font-family: 'montserrat';
     font-weight: 600;
-    font-size: 1100%;
+    font-size: 8rem;
     filter: drop-shadow(4px 4px var(--medium-red));
     margin-top: 7%;
 }
@@ -39,7 +39,7 @@
 
 .choix1 input[type="text"]{
     font-family: 'montserrat';
-    font-size: 110%;
+    font-size: var(--fs-600);
     font-style: italic;
     padding: 5%;
 }
