@@ -3,9 +3,24 @@
     src: url("../fonts/regards.ttf") format("truetype");
 } 
 
-body{
+html{
+    background-color: #FFEEF6;
+}
+
+main{
+    position: relative;
+    z-index: 2;
+    margin-bottom: 14%;
+    padding-bottom: 10%;
     background-color: #FFD2E0;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+body{
+    
     margin: 0;
+    overflow-x: hidden;
 }
 
 nav{
@@ -25,7 +40,7 @@ nav img{
 
 nav ul{
     display: flex;
-    column-gap: 10%;
+    column-gap: 25%;
 }
 
 nav li{
@@ -35,7 +50,6 @@ nav li{
     font-family: 'arial';
     color: #FFEEF6;
     list-style: none;
-    min-width: auto;
     text-align: center;
     padding: 5%;
 }
@@ -47,6 +61,7 @@ nav li a{
     white-space: nowrap;
 }
 
+
 .titre{
     display: flex;
     align-items: center;
@@ -55,7 +70,7 @@ nav li a{
 
 .titre h1{
     font-family: 'regards';
-    font-size: 550%;
+    font-size: 6.5vw;
     color: #820A30;
     margin-bottom: 0%;
     text-transform: uppercase;
@@ -69,7 +84,30 @@ nav li a{
 
 footer{
     background-color: #FFEEF6;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    width: 100%;
     bottom: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+}
+
+footer #footer-title{
+    text-transform: uppercase;
+    color: #FF6696;
+    font-family: 'regards';
+    font-size: 800%;
+    margin: 0;
+    margin-top: 3%;
+}
+
+footer p{
+    font-family: 'arial';
+    color: #820A30;
+    font-size: 110%;
+}
+
+footer p a{
+    text-decoration: underline;
+    color: #820A30;
 }
