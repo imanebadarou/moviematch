@@ -1,0 +1,44 @@
+
+
+h1{
+    font-family: 'regards';
+    font-size: 550%;
+    color: var(--dark-red);
+    margin-bottom: 0%;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+}
+
+section a{
+    font-family: 'regards';
+    font-size: 250%;
+    color: var(--white-pink);
+    filter: drop-shadow(3px 3px var(--medium-red));
+    text-transform:capitalize;
+    text-decoration:none;
+
+    /* justify-content: center; */
+    text-align: center;
+}
+
+section h2{
+    font-family: 'regards';
+    font-size: 250%;
+    color: var(--dark-red);
+    margin-bottom: 0%;
+    text-transform: uppercase;
+    margin-top : 15px;
+}
+
+section p{
+    font-family: 'Montserrat';
+    font-weight:600 ;
+    font-size: 100%;
+    color: var(--dark-red);
+    margin-bottom: 0%;
+    text-transform: uppercase;
+}
+
+#enDuo {
+    /* background-color: aqua;

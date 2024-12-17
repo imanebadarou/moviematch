@@ -1,30 +1,79 @@
 
+section{
+    max-width: 65%;
+    justify-content: center;
+    margin:auto;
+}
 
 h1{
     font-family: 'regards';
     font-size: 550%;
-    color: #820A30;
-    margin-bottom: 0%;
+    color: var(--dark-red);
+    margin: 0%;
     text-transform: uppercase;
     text-align: center;
     justify-content: center;
 }
 
 section a{
+    max-width: 80vw;
+    height: 30vw;
     font-family: 'regards';
-    font-size: 300%;
-    color: var(--white-pink);
+    font-size: 250%;
     text-transform:capitalize;
     text-decoration:none;
-
     /* justify-content: center; */
     text-align: center;
+    display: block;
+    margin: auto;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 section h2{
     font-family: 'regards';
-    font-size: 350%;
-    color: #820A30;
+    font-size: 250%;
     margin-bottom: 0%;
     text-transform: uppercase;
+    margin-top : 0px;
+}
+
+section p{
+    font-family: 'Montserrat';
+    font-weight:600 ;
+    font-size: 100%;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+#enDuo h2,#enDuo p{
+    color: var(--dark-red);
+}
+#enDuo a{
+    color: var(--white-pink);
+    filter: drop-shadow(3px 3px var(--medium-red));
+    background-image: url("../images/coeur.png");
+    
+}
+
+#enSolo{
+    margin-top: 30px;
+}
+#enSolo h2,#enSOlo p{
+    color: var(--dark-blue);
+}
+#enSolo a{
+    color: var(--white-blue);
+    filter: drop-shadow(3px 3px var(--medium-blue));
+    background-image: url("../images/coeur_brise_bleu.png");
 }

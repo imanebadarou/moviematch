@@ -17,14 +17,14 @@
     font-family: 'montserrat';
     font-weight: 600;
     font-size: 1100%;
-    filter: drop-shadow(4px 4px #CB1215);
+    filter: drop-shadow(4px 4px var(--medium-red));
     margin-top: 7%;
 }
 
 .choix1 h2{
     font-family: 'regards';
     font-size: 250%;
-    color: #CB1215;
+    color: var(--medium-red);
     margin-bottom: 25%;
 }
 
@@ -45,6 +45,6 @@
 }
 
 .choix1 input[type="text"]:focus{
-    border: 2px solid #CB1215;
+    border: 2px solid var(--medium-red);
     outline:none;
 }
