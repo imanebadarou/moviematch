@@ -11,6 +11,7 @@ body{
 nav{
     padding: 1.2%;
     padding-right: 8%;
+    padding-left: 4%;
     background-color: #FFEEF6;
     display: flex;
     justify-content: space-between;
@@ -29,20 +30,21 @@ nav ul{
 
 nav li{
     background-color: #FF6696;
-    border: 0px;
     border-radius: 10px;
     filter: drop-shadow(5px 5px #CB1215);
-    text-decoration: none;
     font-family: 'arial';
     color: #FFEEF6;
     list-style: none;
+    min-width: auto;
+    text-align: center;
+    padding: 5%;
 }
 
 nav li a{
-    padding: 10%;
     font-size: 120%;
     text-decoration: none;
     color: #FFEEF6;
+    white-space: nowrap;
 }
 
 .titre{
