@@ -35,3 +35,13 @@
     margin-bottom: 10%;
     border-radius: 5px;
 }
+
+.choix1 input[type="text"]{
+    font-size: 110%;
+    padding: 5%;
+}
+
+.choix1 input[type="text"]:focus{
+    border: 2px solid #CB1215;
+    outline:none;
+}
