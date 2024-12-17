@@ -15,9 +15,10 @@
 .choix p{
     color: #FF6696;
     font-family: 'montserrat';
-    font-size: 1000%;
+    font-weight: 600;
+    font-size: 1100%;
     filter: drop-shadow(4px 4px #CB1215);
-    margin-top: 5%;
+    margin-top: 7%;
 }
 
 .choix1 h2{
@@ -39,6 +40,7 @@
 .choix1 input[type="text"]{
     font-family: 'montserrat';
     font-size: 110%;
+    font-style: italic;
     padding: 5%;
 }
 

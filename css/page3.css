@@ -28,6 +28,31 @@ nav li{
     text-transform: uppercase;
 }
 
+.recherche{
+    display: flex;
+    column-gap: 3%;
+    margin-left: 5%;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.recherche select, .recherche input{
+    background-color: #DDE0FF;
+    border: 0px;
+    width: 20%;
+    margin-bottom: 10%;
+    border-radius: 5px;
+    padding: 0.5%;
+    font-size: 110%;
+    font-family: 'montserrat';
+}
+
+
+.recherche input[type="text"]:focus{
+    border: 2px solid #2E12CB;
+    outline:none;
+}
+
 footer{
     background-color: #2A0A82;
 }
