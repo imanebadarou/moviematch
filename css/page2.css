@@ -14,7 +14,7 @@
 }
 .choix p{
     color: #FF6696;
-    font-family: 'arial';
+    font-family: 'montserrat';
     font-size: 1000%;
     filter: drop-shadow(4px 4px #CB1215);
     margin-top: 5%;
@@ -37,6 +37,7 @@
 }
 
 .choix1 input[type="text"]{
+    font-family: 'montserrat';
     font-size: 110%;
     padding: 5%;
 }
