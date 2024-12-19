@@ -57,6 +57,52 @@ nav li{
     outline:none;
 }
 
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 16px;
+    scroll-behavior: smooth;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 200px;
+    text-align: center;
+    background: var(--white-blue);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    transition: transform 0.3s;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.carousel-item:hover {
+    transform: scale(1.05); /* Effet d'agrandissement au survol */
+}
+
+.carousel h3 {
+    font-size: 1rem;
+    margin: 8px 0;
+    color: #333;
+}
+
+.carousel p {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+
 footer{
     background-color: var(--dark-blue);
 }

@@ -14,7 +14,7 @@
                 <ul>
                     <li><a href="./page2.html">Films en duo</a></li>
                     <li><a href="./page3.html">Films en solo</a></li>
-                  </ul>
+                </ul>
             </nav>
         </header>
 
@@ -31,9 +31,11 @@
                     <option value="realisateur">Réalisateur</option>
                     <option value="note">Note</option>
                     <option value="genre">Genre</option>
-                  </select>
-                  <input type="text"/>
+                </select>
+                <input type="text" id="filtre-input" placeholder="Entrez votre recherche" list="suggestions"/>
+                <datalist id="suggestions"></datalist>
             </section>
+            <section id="results"></section>
         </main>
 
         <footer>
@@ -42,4 +44,5 @@
         </footer>
 		
     </body>
+    <script type="module" src="../js/page3.js"></script>
 </html>
