@@ -88,13 +88,13 @@ nav li{
 }
 
 .carousel-item:hover {
-    transform: scale(1.05); /* Effet d'agrandissement au survol */
+    transform: scale(1.05);
 }
 
 .carousel h3 {
     font-size: 1rem;
     margin: 8px 0;
-    color: #333;
+    color: var(--dark-blue);
 }
 
 .carousel p {

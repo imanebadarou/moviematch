@@ -48,3 +48,46 @@
     border: 2px solid var(--medium-red);
     outline:none;
 }
+
+.compatibility {
+    font-family: 'montserrat';
+    color: var(--medium-pink);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.results ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+.results li {
+    width: 200px;
+    text-align: center;
+    background: var(--white-pink);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+.results img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.results h3 {
+    font-family: 'montserrat';
+    font-size: 1rem;
+    margin: 10px 0;
+    color: var(--medium-red);
+}
+
+.results p {
+    font-size: 0.9rem;
+    color: #555;
+}

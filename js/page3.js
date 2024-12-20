@@ -119,7 +119,7 @@ function displayMovies(movies) {
         card.innerHTML = `
             <img src="https://image.tmdb.org/t/p/w200${movie.poster_path}" alt="${movie.title}" />
             <h3>${movie.title}</h3>
-            <p>Note : ${movie.vote_average} | Date de sortie : ${movie.release_date}</p>
+            <p>Note&nbsp;: ${movie.vote_average} | Date de sortie&nbsp;: ${movie.release_date}</p>
         `;
         carousel.appendChild(card);
     });

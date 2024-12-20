@@ -14,7 +14,7 @@
                 <ul>
                     <li><a href="./page2.html">Films en duo</a></li>
                     <li><a href="./page3.html">Films en solo</a></li>
-                  </ul>
+                </ul>
             </nav>
         </header>
 
@@ -24,20 +24,21 @@
                 <p>Une sélection de films personnalisée selon vos goûts.</p>
             </section>
             <section class="choix">
+                <datalist id="filmsList"></datalist>
                 <div class="choix1">
                     <h2>TES FILMS</h2>
-                    <input type="text" placeholder="Entrez votre film"/>
-                    <input type="text" placeholder="Entrez votre film"/>
-                    <input type="text" placeholder="Entrez votre film"/>
-                    <input type="text" placeholder="Entrez votre film"/>
+                    <input type="text" placeholder="Entrez votre film" list="filmsList"/>
+                    <input type="text" placeholder="Entrez votre film" list="filmsList"/>
+                    <input type="text" placeholder="Entrez votre film" list="filmsList"/>
+                    <input type="text" placeholder="Entrez votre film" list="filmsList"/>
                 </div>
                 <p class="croix">+</p>
                 <div class="choix1">
                     <h2>SES FILMS</h2>
-                    <input type="text" placeholder="Entrez votre film"/>
-                    <input type="text" placeholder="Entrez votre film"/>
-                    <input type="text" placeholder="Entrez votre film"/>
-                    <input type="text" placeholder="Entrez votre film"/>
+                    <input type="text" placeholder="Entrez votre film" list="filmsList"/>
+                    <input type="text" placeholder="Entrez votre film" list="filmsList"/>
+                    <input type="text" placeholder="Entrez votre film" list="filmsList"/>
+                    <input type="text" placeholder="Entrez votre film" list="filmsList"/>
                 </div>
             </section>
 
@@ -52,4 +53,5 @@
         </footer>
 		
     </body>
+    <script type="module" src="../js/page2.js"></script>
 </html>
