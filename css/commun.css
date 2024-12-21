@@ -157,7 +157,7 @@ nav li a {
 
 .titre h1 {
     font-family: 'regards';
-    font-size: var(-fs-800);
+    font-size: var(--fs-800);
     color: var(--dark-red);
     margin-bottom: 0%;
     text-transform: uppercase;
