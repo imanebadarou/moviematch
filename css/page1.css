@@ -64,7 +64,7 @@ section h2{
 }
 
 section p{
-    font-family: 'Montserrat';
+    font-family: 'montserrat';
     font-weight:600 ;
     font-size: var(--fs-600);
     max-width: 65%;
